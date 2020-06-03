@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!--  Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Main style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hot Burger</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="img/logo.svg" /> Hot Burger</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="signup.html" class="btn btn-gold my-2 my-sm-0">Sign up</a>
+                    <a href="cart.html" class="btn btn-white my-2 my-sm-0">$0.00 &nbsp;<i
+                            class="fas fa-shopping-bag"></i></a>
+                </form>
+            </div>
+        </nav>
+        <div class="head-content">
+            <h1 class="head-title">Contact us</h1>
+        </div>
+    </header>
+    <div class="main-content">
+        <section id="contact">
+            <h1 class="section-header">Get Touch with us</h1>
+            <div class="contact-wrapper">
+                <form class="form-horizontal" role="form" method="post" action="">
+
+                    <div class="form-group">
+                        <div class="">
+                            <input type="text" class="form-control" id="name" placeholder="Name" name="name" value="">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="">
+                            <input type="email" class="form-control" id="email" placeholder="Email" name="email"
+                                value="">
+                        </div>
+                    </div>
+
+                    <textarea class="form-control" rows="10" placeholder="Message..." name="message"></textarea>
+
+                    <button class="btn btn-gold send-button" id="submit" type="submit" value="send">
+                        Send
+                    </button>
+                </form>
+                <div class="direct-contact-container">
+                    <ul class="contact-list">
+                        <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">15 Springfield Road
+                                    London</span></i></li>
+
+                        <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                                        href="tel:1-212-555-5555" title="Give me a call">+44 20 7388 76666</a></span></i>
+                        </li>
+
+                        <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a
+                                        href="mailto:contact@hot-burger.com" title="Send me an email">contact@hot-burger.com</a></span></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.8071416017656!2d-0.20088001545551826!3d51.424969279621635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487608b165a184cf%3A0xbd1be37442688a3c!2zMTUgU3ByaW5nZmllbGQgUmQsIFdpbWJsZWRvbiwgTG9uZG9uIFNXMTkgN0FM2Iwg2KfZhNmF2YXZhNmD2Kkg2KfZhNmF2KrYrdiv2Kk!5e0!3m2!1sar!2stn!4v1586698452115!5m2!1sar!2stn" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footer-title">Hot Burger Info</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Blog</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footer-title">My Hot Burger</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>My Account</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Wishlist</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footer-title">Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Privacy policy</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Terms of use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="#" target="_blank"><i
+                                    class="fab fa-facebook-square"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank"><i
+                                    class="fab fa-twitter-square"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank"><i
+                                    class="fab fa-instagram-square"></i></a></li>
+                    </ul>
+                </div>
+                </hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Hot
+                            Burger</a>
+                    </p>
+                </div>
+                </hr>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!--  Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Main style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hot Burger</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="img/logo.svg" /> Hot Burger</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="signup.html" class="btn btn-gold my-2 my-sm-0">Sign up</a>
+                    <a href="cart.html" class="btn btn-white my-2 my-sm-0">$0.00 &nbsp;<i class="fas fa-shopping-bag"></i></a>
+                </form>
+            </div>
+        </nav>
+        <div class="head-content">
+            <h1 class="head-title">Cart</h1>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="wrap cf">
+            <div class="heading cf">
+                <h1>My Cart</h1>
+                <a href="#" class="continue btn">Continue Shopping</a>
+            </div>
+            <div class="cart">
+                <ul class="cartWrap">
+                    <li class="items odd">
+                        <div class="infoWrap">
+                            <div class="cartSection">
+                                <img src="img/product3.png" alt="" class="itemImg" />
+                                <h3>Whopper Meal</h3>
+                                <p> <input type="text" class="qty" placeholder="3" /> x $5.00</p>
+                            </div>
+                            <div class="prodTotal cartSection">
+                                <p>$5.00</p>
+                            </div>
+                            <div class="cartSection removeWrap">
+                                <a href="#" class="remove btn btn-danger"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="items odd">
+                        <div class="infoWrap">
+                            <div class="cartSection">
+                                <img src="img/product3.png" alt="" class="itemImg" />
+                                <h3>Whopper Meal</h3>
+                                <p> <input type="text" class="qty" placeholder="3" /> x $5.00</p>
+                            </div>
+                            <div class="prodTotal cartSection">
+                                <p>$5.00</p>
+                            </div>
+                            <div class="cartSection removeWrap">
+                                <a href="#" class="remove btn btn-danger"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="items odd">
+                        <div class="infoWrap">
+                            <div class="cartSection">
+                                <img src="img/product3.png" alt="" class="itemImg" />
+                                <h3>Whopper Meal</h3>
+                                <p> <input type="text" class="qty" placeholder="3" /> x $5.00</p>
+                            </div>
+                            <div class="prodTotal cartSection">
+                                <p>$5.00</p>
+                            </div>
+                            <div class="cartSection removeWrap">
+                                <a href="#" class="remove btn btn-danger"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="subtotal cf">
+                <ul>
+                    <li class="totalRow"><span class="label">Subtotal</span><span class="value">$15.00</span></li>
+                    <li class="totalRow"><span class="label">Shipping</span><span class="value">$5.00</span></li>
+                    <li class="totalRow final"><span class="label">Total</span><span class="value">$20.00</span></li>
+                    <li class="totalRow"><a href="#" class="btn btn-gold continue" style="margin-right: 0px;">Checkout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footer-title">Hot Burger Info</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Blog</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footer-title">My Hot Burger</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>My Account</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Wishlist</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5 class="footer-title">Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Privacy policy</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Terms of use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="#" target="_blank"><i
+                                    class="fab fa-facebook-square"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank"><i
+                                    class="fab fa-twitter-square"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank"><i
+                                    class="fab fa-instagram-square"></i></a></li>
+                    </ul>
+                </div>
+                </hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Hot
+                            Burger</a>
+                    </p>
+                </div>
+                </hr>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
